@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  *
  * @author java
  */
-@Service("SpringHolaSpring")
+@Service("ServiceHolaSpring")
 public class ServiceHolaSpring {
     public String test() {
         return "hola desde el servicio spring";

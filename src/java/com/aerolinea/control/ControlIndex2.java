@@ -1,21 +1,21 @@
 package com.aerolinea.control;
 
 import com.aerolinea.service.ServiceHolaSpring;
-import javax.annotation.ManagedBean;
 
 //JSF Managed Bean
-import javax.enterprise.context.RequestScoped;
+
 import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.RequestScoped;
+import javax.faces.bean.ManagedBean;
 //----------------------------------------------------------
 
 //JSF Managed Bean
 @ManagedBean
 @RequestScoped
 
-
 public class ControlIndex2 {
 
-    @ManagedProperty("#{SpringHolaSpring}")
+    @ManagedProperty("#{ServiceHolaSpring}")
     private ServiceHolaSpring hola;
     
     /**
